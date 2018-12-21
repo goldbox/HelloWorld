@@ -16,6 +16,7 @@ namespace HelloWorldTests
         [TestMethod]
         public void TestMethod2()
         {
+
             Assert.AreEqual("Hello World", Program.CreateMessage());
         }
     }
